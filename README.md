@@ -26,4 +26,4 @@ curl -X POST https://www.strava.com/oauth/token \
 1. Run the modifier: `npm run modifier`
 
 ## Notes
-- Make sure you'll be in the Rate Limits: 100 requests every 15 minutes, 1000 daily
+- Make sure you'll be in the Rate Limits of a non-production Strava API app: 100 requests every 15 minutes, 1000 daily
