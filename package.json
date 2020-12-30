@@ -1,0 +1,23 @@
+{
+  "name": "strava-activity-modifier",
+  "version": "1.0.0",
+  "description": "Mass modify strava activities",
+  "main": "modifier.js",
+  "scripts": {
+    "build": "tsc",
+    "modifier": "node lib/modifier.js"
+  },
+  "keywords": [
+    "strava",
+    "api"
+  ],
+  "author": "mihaly@koles.hu",
+  "license": "MIT",
+  "dependencies": {
+    "strava": "^1.1.4"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.7",
+    "typescript": "^4.1.3"
+  }
+}
